@@ -2,20 +2,19 @@
 //  AppDelegate.m
 //  PhotoChat
 //
-//  Created by Dawson Walker on 2014-06-02.
+//  Created by Dawson Walker on 2014-10-14.
 //  Copyright (c) 2014 Dawson Walker. All rights reserved.
 //
-
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:93.0/256.0 green:202.0/256.0 blue:252.0/256.0 alpha:1.0]];
+    [Parse setApplicationId:@"aCY1LAZzEqlBFoq7dGz0XRA364tCi0E3bsUPYo69"
+                  clientKey:@"UOWo2CCVQEOJZ8lO0xPwUdebhmEMXKYtKmXunRFU"];
     return YES;
 }
 

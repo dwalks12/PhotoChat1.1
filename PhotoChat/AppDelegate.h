@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  PhotoChat
 //
-//  Created by Dawson Walker on 2014-06-02.
+//  Created by Dawson Walker on 2014-10-14.
 //  Copyright (c) 2014 Dawson Walker. All rights reserved.
 //
 
